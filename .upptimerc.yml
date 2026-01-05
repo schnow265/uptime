@@ -2,32 +2,51 @@ owner: schnow265
 repo: uptime
 
 sites:
-  - name: Wikipedia
-    url: https://www.wikipedia.org
+  # Search Engines
   - name: DuckDuckGo
     url: https://www.duckduckgo.com
-  - name: Internet Archive
-    url: https://www.archive.org
-  - name: Cloudflare
-    url: https://www.cloudflare.com
-  - name: Cloudflare Status
-    url: https://www.cloudflarestatus.com
+    
   - name: Kagi
     url: https://www.kagi.com
-  - name: Google DNS
-    check: "tcp-ping"
-    url: 8.8.8.8
-    port: 53
-  - name: Cloudflare DNS
-    check: "tcp-ping"
-    url: 1.1.1.1
-    port: 53
+  
+  # "Random" websites.
+  - name: Wikipedia
+    url: https://www.wikipedia.org
+
+  - name: Internet Archive
+    url: https://www.archive.org
+
   - name: Talilscale API
     url: https://api.tailscale.com/api
     expectedStatusCodes:
       - 200
       - 201
       - 404
+
+  # Cloudflare.
+  - name: Cloudflare
+    url: https://www.cloudflare.com
+  - name: Cloudflare Status
+    url: https://www.cloudflarestatus.com
+
+  # DNS Servers
+  - name: Google DNS
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+    icon: https://google.com/favicon.ico
+  
+  - name: Cloudflare DNS
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+    icon: https://cloudflare.com/favicon.ico
+  
+  - name: Quad9 DNS
+    check: "tcp-ping"
+    url: 9.9.9.9
+    port: 53
+    icon: https://quad9.net/favicon.svg
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
