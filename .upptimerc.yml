@@ -14,7 +14,7 @@ sites:
     url: https://www.cloudflarestatus.com
   - name: Kagi
     url: https://www.kagi.com
-  - name: Google DNS 1
+  - name: Google DNS
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
@@ -22,6 +22,12 @@ sites:
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
+  - name: Talilscale API
+    url: https://api.tailscale.com/api
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
