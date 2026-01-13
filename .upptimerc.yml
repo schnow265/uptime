@@ -16,6 +16,9 @@ sites:
   - name: Internet Archive
     url: https://www.archive.org
 
+  - name: Software Heritage Archive
+    url: https://archive.softwareheritage.org
+
   - name: Talilscale API
     url: https://api.tailscale.com/api
     expectedStatusCodes:
