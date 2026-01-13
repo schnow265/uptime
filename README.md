@@ -1,6 +1,6 @@
 # [📈 Live Status](https://schnow265.github.io/uptime): <!--live status--> **🟩 All systems operational**
 
-This repository contains the open-source uptime monitor and status page for [Luca Scalet](schnow265.github.io), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for [schnow265](https://github.com/schnow265), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/schnow265/uptime/workflows/Uptime%20CI/badge.svg)](https://github.com/schnow265/uptime/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/schnow265/uptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/schnow265/uptime/actions?query=workflow%3A%22Response+Time+CI%22)
