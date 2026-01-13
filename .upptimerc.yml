@@ -3,11 +3,14 @@ repo: uptime
 
 sites:
   # Search Engines
-  - name: DuckDuckGo
-    url: https://www.duckduckgo.com
-    
   - name: Kagi
     url: https://www.kagi.com
+  - name: DuckDuckGo
+    url: https://www.duckduckgo.com
+  - name: Google
+    url: https://www.google.com
+  - name: Bing
+    url: https://www.bing.com
   
   # "Random" websites.
   - name: Wikipedia
@@ -25,6 +28,10 @@ sites:
       - 200
       - 201
       - 404
+
+  # ironic.
+  - name: GitHub
+    url: https://github.com
 
   # Cloudflare.
   - name: Cloudflare
@@ -51,9 +58,24 @@ sites:
     port: 53
     icon: https://quad9.net/favicon.svg
 
+  # AI bs
+  - name: Mistal API
+    url: https://api.mistral.ai/
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+    icon: https://mistral.ai/favicon.ico
+
+  - name: OpenAI API
+    url: https://api.openai.com
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 421
+    icon: https://platform.openai.com/docs/static/favicon-platform.svg
+
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /uptime
   logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/master/static/img/icon.svg
   name: Upptime
@@ -62,6 +84,3 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
