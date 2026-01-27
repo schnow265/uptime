@@ -99,19 +99,19 @@
     "url": "https://www.archive.org",
     "icon": "https://icons.duckduckgo.com/ip3/www.archive.org.ico",
     "slug": "internet-archive",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 516,
-    "timeDay": 570,
-    "timeWeek": 512,
-    "timeMonth": 516,
-    "timeYear": 516,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "99.03%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 519,
+    "timeDay": 585,
+    "timeWeek": 523,
+    "timeMonth": 519,
+    "timeYear": 519,
     "dailyMinutesDown": {
-      "2026-01-27": 0
+      "2026-01-27": 14
     }
   },
   {
