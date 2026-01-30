@@ -1,7 +1,7 @@
 url: https://archive.softwareheritage.org
-status: up
-code: 200
-responseTime: 655
-lastUpdated: 2026-01-29T23:23:04.167Z
+status: down
+code: 504
+responseTime: 5644
+lastUpdated: 2026-01-30T10:00:41.612Z
 startTime: 2026-01-13T13:15:19.114Z
 generator: Upptime <https://github.com/upptime/upptime>
