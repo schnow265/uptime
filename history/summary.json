@@ -117,18 +117,20 @@
     "url": "https://archive.softwareheritage.org",
     "icon": "https://icons.duckduckgo.com/ip3/archive.softwareheritage.org.ico",
     "slug": "software-heritage-archive",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 758,
-    "timeDay": 655,
-    "timeWeek": 756,
-    "timeMonth": 758,
-    "timeYear": 758,
-    "dailyMinutesDown": {}
+    "time": 1003,
+    "timeDay": 3150,
+    "timeWeek": 1367,
+    "timeMonth": 1003,
+    "timeYear": 1003,
+    "dailyMinutesDown": {
+      "2026-01-30": 0
+    }
   },
   {
     "name": "Talilscale API",
